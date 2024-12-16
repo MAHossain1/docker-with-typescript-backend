@@ -1,0 +1,25 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/app/logs/winston/errors/.4781ce9218c23db15d8e59296057d4706d2bc4bb-audit.json",
+    "files": [
+        {
+            "date": 1734321275634,
+            "name": "/app/logs/winston/errors/docker-2024-12-16-03-error.log",
+            "hash": "5b476d5a7a001a50f47136d4cf898ae3fd1d7a8502ea77ca274daa48ce9475bd"
+        },
+        {
+            "date": 1734362995064,
+            "name": "/app/logs/winston/errors/docker-2024-12-16-15-error.log",
+            "hash": "66895c416414b58e9c9f6fe5bbe4f429b8b4a129afa5e745b5d1e6250d57fe99"
+        },
+        {
+            "date": 1734367739990,
+            "name": "/app/logs/winston/errors/docker-2024-12-16-16-error.log",
+            "hash": "ab2308d01b6333298b0e9781ea3aaa139c2dcbdfb8739e9972f519db61071348"
+        }
+    ],
+    "hashType": "sha256"
+}
