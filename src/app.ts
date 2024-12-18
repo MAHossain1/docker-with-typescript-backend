@@ -1,4 +1,5 @@
 import express, { Application, Request, Response } from 'express';
+import cors from 'cors';
 import path from 'path';
 import { errorLogger } from './app/src/shared/logger';
 import { LogsRoutes } from './app/src/module/logs/logs.routes';
@@ -10,6 +11,20 @@ app.use(express.static(path.join(__dirname, '../public'))); // Adjusted path
 
 // Parsers
 app.use(express.json());
+
+app.use(
+  cors({
+    credentials: true,
+    origin: 'http://localhost:3000',
+  })
+);
+
+app.get('/todos', async (req: Request, res: Response): Promise<any> => {
+  const response = await fetch('https://jsonplaceholder.typicode.com/todos');
+  // const response = await fetch('http://ts-docker-container:5000/api/v1/users');
+  const todos = await response.json();
+  return res.status(200).json(todos);
+});
 
 // Welcome route
 app.get('/', (req: Request, res: Response) => {
