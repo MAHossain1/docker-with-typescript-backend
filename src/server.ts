@@ -1,16 +1,16 @@
-import { Server } from "http";
-import app from "./app";
-import { errorLogger, logger } from "./app/src/shared/logger";
+import { Server } from 'http';
+import app from './app';
+import { errorLogger, logger } from './app/src/shared/logger';
 
 let server: Server;
 
-const PORT = 5000;
+// const PORT = 5000;
 
 async function main() {
   try {
-    server = app.listen(PORT, () => {
-      console.log(`app is listening on port ${PORT}`);
-      logger.info(`app is listening on port ${PORT}`);
+    server = app.listen(process.env.PORT, () => {
+      console.log(`app is listening on port ${process.env.PORT}`);
+      logger.info(`app is listening on port ${process.env.PORT}`);
     });
   } catch (err) {
     console.log(err);
@@ -20,7 +20,7 @@ async function main() {
 
 main();
 
-process.on("unhandledRejection", err => {
+process.on('unhandledRejection', err => {
   console.log(`😈 unahandledRejection is detected , shutting down ...`, err);
   errorLogger.error(err);
   if (server) {
@@ -31,8 +31,8 @@ process.on("unhandledRejection", err => {
   process.exit(1);
 });
 
-process.on("uncaughtException", () => {
+process.on('uncaughtException', () => {
   console.log(`😈 uncaughtException is detected , shutting down ...`);
-  errorLogger.error("uncaughtException is detected");
+  errorLogger.error('uncaughtException is detected');
   process.exit(1);
 });
