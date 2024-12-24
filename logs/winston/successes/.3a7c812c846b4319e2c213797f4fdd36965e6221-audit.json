@@ -6,14 +6,69 @@
     "auditLog": "E:\\docker\\basic-backend\\logs\\winston\\successes\\.3a7c812c846b4319e2c213797f4fdd36965e6221-audit.json",
     "files": [
         {
-            "date": 1734489819519,
-            "name": "E:\\docker\\basic-backend\\logs\\winston\\successes\\docker-2024-12-18-08-43-39-success.log",
-            "hash": "cdf6a43461d0a966da5e0963ebc00a2a0ca520a87e1847a3afb1acf5bd12f84b"
+            "date": 1734920940534,
+            "name": "E:\\docker\\basic-backend\\logs\\winston\\successes\\docker-2024-12-23-08-29-00-success.log",
+            "hash": "7f32601955c44de3b8d086e8cc0460c08fe9b8228456595177904f0a60e0ce68"
         },
         {
-            "date": 1734489820613,
-            "name": "E:\\docker\\basic-backend\\logs\\winston\\successes\\docker-2024-12-18-08-43-40-success.log",
-            "hash": "f9f2881963cb3daae253c93ef17b6e1ceda5ddf2139e9a38f338bf91bc228eed"
+            "date": 1734920941589,
+            "name": "E:\\docker\\basic-backend\\logs\\winston\\successes\\docker-2024-12-23-08-29-01-success.log",
+            "hash": "7134f74448482d639edf19f68f6eb66fa8dc17bd7ab8022552a4cf451f14773c"
+        },
+        {
+            "date": 1734921470096,
+            "name": "E:\\docker\\basic-backend\\logs\\winston\\successes\\docker-2024-12-23-08-37-50-success.log",
+            "hash": "a8406dfe91469527ad394f91a7ed91ee22cb688d6f232d9d209c52ca9f9728cb"
+        },
+        {
+            "date": 1734921471917,
+            "name": "E:\\docker\\basic-backend\\logs\\winston\\successes\\docker-2024-12-23-08-37-51-success.log",
+            "hash": "7e10ef568dd5dff52884788971fe2007a1cee559e0fca0c05162d45142d7f12b"
+        },
+        {
+            "date": 1734921473716,
+            "name": "E:\\docker\\basic-backend\\logs\\winston\\successes\\docker-2024-12-23-08-37-53-success.log",
+            "hash": "2feee504fc59c6c4fb5499c33d21936988d3ec85d9826581ad092ab2eaf9658b"
+        },
+        {
+            "date": 1734921475316,
+            "name": "E:\\docker\\basic-backend\\logs\\winston\\successes\\docker-2024-12-23-08-37-55-success.log",
+            "hash": "361e174a2d08c0e3a92925ebea8e3d745ba3aabc35ff50a755848eff6a8afebe"
+        },
+        {
+            "date": 1734922681419,
+            "name": "E:\\docker\\basic-backend\\logs\\winston\\successes\\docker-2024-12-23-08-58-01-success.log",
+            "hash": "5be802f068d075ce6d5a6cea1a95bf9ec500e6a96f18468c46df47ccc4d08212"
+        },
+        {
+            "date": 1734922682187,
+            "name": "E:\\docker\\basic-backend\\logs\\winston\\successes\\docker-2024-12-23-08-58-02-success.log",
+            "hash": "862f1af3f34472c1a4664b3dd58a9adc31c21774fbb6cf09cb3fcc9a66f89cee"
+        },
+        {
+            "date": 1734922799457,
+            "name": "E:\\docker\\basic-backend\\logs\\winston\\successes\\docker-2024-12-23-08-59-59-success.log",
+            "hash": "27cef07990325068edcf51f9a0a8604034418a7197007d9919ede111e4505509"
+        },
+        {
+            "date": 1734922808617,
+            "name": "E:\\docker\\basic-backend\\logs\\winston\\successes\\docker-2024-12-23-09-00-08-success.log",
+            "hash": "d89285a4b6c25fcac8d9d1d987e34aca22ba883cf80712c62d6f64c40517c8ba"
+        },
+        {
+            "date": 1734922826120,
+            "name": "E:\\docker\\basic-backend\\logs\\winston\\successes\\docker-2024-12-23-09-00-26-success.log",
+            "hash": "ff619f855fac70775e59b599bcf672c870d5256158ec2e32287074c27f66e55d"
+        },
+        {
+            "date": 1734922867924,
+            "name": "E:\\docker\\basic-backend\\logs\\winston\\successes\\docker-2024-12-23-09-01-07-success.log",
+            "hash": "06ba76bbf7a8bbb33b45d4cee9cf87bdd1fd5cd3a72938d5e040bd33339934dd"
+        },
+        {
+            "date": 1734922868645,
+            "name": "E:\\docker\\basic-backend\\logs\\winston\\successes\\docker-2024-12-23-09-01-08-success.log",
+            "hash": "8bde40292e091b6d30070f19c19eb0b5a1d0dc2b393bd230c68f918e139ff1fd"
         }
     ],
     "hashType": "sha256"

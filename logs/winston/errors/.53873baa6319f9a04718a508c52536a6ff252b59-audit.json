@@ -6,9 +6,14 @@
     "auditLog": "E:\\docker\\basic-backend\\logs\\winston\\errors\\.53873baa6319f9a04718a508c52536a6ff252b59-audit.json",
     "files": [
         {
-            "date": 1734489819522,
-            "name": "E:\\docker\\basic-backend\\logs\\winston\\errors\\docker-2024-12-18-08-error.log",
-            "hash": "0f31fb2ace9160fe1eb13e830492e6b013966889b1e8377ab2066b882d0c9491"
+            "date": 1734920940542,
+            "name": "E:\\docker\\basic-backend\\logs\\winston\\errors\\docker-2024-12-23-08-error.log",
+            "hash": "c9af2e82f4386ad1efe7c66ed93d981c50279c60e81fdc4c2766c66bd44ac245"
+        },
+        {
+            "date": 1734922826124,
+            "name": "E:\\docker\\basic-backend\\logs\\winston\\errors\\docker-2024-12-23-09-error.log",
+            "hash": "629405f293d9ec9295e34aa7fd9e8219ad9622d0c580352e888344cadede9f1f"
         }
     ],
     "hashType": "sha256"

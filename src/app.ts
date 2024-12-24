@@ -3,6 +3,7 @@ import cors from 'cors';
 import path from 'path';
 import { errorLogger } from './app/src/shared/logger';
 import { LogsRoutes } from './app/src/module/logs/logs.routes';
+import router from './app/src/routes';
 
 const app: Application = express();
 
@@ -18,6 +19,9 @@ app.use(
     origin: 'http://localhost:3000',
   })
 );
+app.use(express.urlencoded({ extended: true }));
+
+app.use('/api/v1', router);
 
 app.get('/todos', async (req: Request, res: Response): Promise<any> => {
   const response = await fetch('https://jsonplaceholder.typicode.com/todos');
