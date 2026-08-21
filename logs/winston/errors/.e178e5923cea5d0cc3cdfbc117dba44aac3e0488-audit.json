@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/arman/learn-devops/docker/basic-backend/logs/winston/errors/.e178e5923cea5d0cc3cdfbc117dba44aac3e0488-audit.json",
+    "files": [
+        {
+            "date": 1787101940673,
+            "name": "/home/arman/learn-devops/docker/basic-backend/logs/winston/errors/docker-2026-08-19-07-error.log",
+            "hash": "fe307eabb13753da603dda5929a4be12a072c0fffb8699a827727037dc07b423"
+        },
+        {
+            "date": 1787106099434,
+            "name": "/home/arman/learn-devops/docker/basic-backend/logs/winston/errors/docker-2026-08-19-08-error.log",
+            "hash": "818449d6fbfd6496a6031973f59889b41bb08046dfc7b1076fbb571c93e5e075"
+        },
+        {
+            "date": 1787110819007,
+            "name": "/home/arman/learn-devops/docker/basic-backend/logs/winston/errors/docker-2026-08-19-09-error.log",
+            "hash": "8b23072032b6c5c0b1cf2f1e01e24cc4a4c5e2710dba9ea73d3d09bc011d1a39"
+        },
+        {
+            "date": 1787273574465,
+            "name": "/home/arman/learn-devops/docker/basic-backend/logs/winston/errors/docker-2026-08-21-06-error.log",
+            "hash": "f944394ae6133142215e05164c15f5b8b61138b79a22ffa9a30cb4f804f22273"
+        }
+    ],
+    "hashType": "sha256"
+}

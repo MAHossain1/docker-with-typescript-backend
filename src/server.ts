@@ -9,9 +9,14 @@ let server: Server;
 // const PORT = 5000;
 
 async function main() {
+  // console.log('Database URL:', config.database_url); // Debug
+  if (!config.database_url) {
+    throw new Error('Database URL is undefined');
+  }
   try {
     await mongoose.connect(config.database_url as string);
-
+    mongoose.set('strictQuery', false);
+    logger.info('Database connection successful');
     logger.info('Connected to database');
 
     server = app.listen(process.env.PORT, () => {

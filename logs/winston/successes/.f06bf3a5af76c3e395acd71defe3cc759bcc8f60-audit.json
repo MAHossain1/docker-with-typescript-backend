@@ -1,0 +1,65 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/arman/learn-devops/docker/basic-backend/logs/winston/successes/.f06bf3a5af76c3e395acd71defe3cc759bcc8f60-audit.json",
+    "files": [
+        {
+            "date": 1787101940670,
+            "name": "/home/arman/learn-devops/docker/basic-backend/logs/winston/successes/docker-2026-08-19-07-12-20-success.log",
+            "hash": "7dc87edbbd8ba359ba179478fe3162c9e8f81b3767b978f91f9ed1c5edd48f71"
+        },
+        {
+            "date": 1787106099432,
+            "name": "/home/arman/learn-devops/docker/basic-backend/logs/winston/successes/docker-2026-08-19-08-21-39-success.log",
+            "hash": "236754ab5590aa1d9fa799e60ee1dd89cd0de15ccd3d906014c35c40198f1a66"
+        },
+        {
+            "date": 1787106214675,
+            "name": "/home/arman/learn-devops/docker/basic-backend/logs/winston/successes/docker-2026-08-19-08-23-34-success.log",
+            "hash": "8d8bd15033fcc2dc5f77180a174260a616b07a159ffd71b479e8c49fbfbc79db"
+        },
+        {
+            "date": 1787106240001,
+            "name": "/home/arman/learn-devops/docker/basic-backend/logs/winston/successes/docker-2026-08-19-08-23-59-success.log",
+            "hash": "d490ec0aecbc43af4a9ea7061f84f8b4038ed54b922b3361e162ad9c81c11286"
+        },
+        {
+            "date": 1787106276316,
+            "name": "/home/arman/learn-devops/docker/basic-backend/logs/winston/successes/docker-2026-08-19-08-24-36-success.log",
+            "hash": "5a36b228509f32e12eb39ce5c426d9049d4fb20d66bbedf7e5943d5890587042"
+        },
+        {
+            "date": 1787110819004,
+            "name": "/home/arman/learn-devops/docker/basic-backend/logs/winston/successes/docker-2026-08-19-09-40-19-success.log",
+            "hash": "3cffbb8e3d35fdf8f8c34e44cc204fce01a4bf37b6318a5d09c0a768ea9dd0ed"
+        },
+        {
+            "date": 1787110928355,
+            "name": "/home/arman/learn-devops/docker/basic-backend/logs/winston/successes/docker-2026-08-19-09-42-08-success.log",
+            "hash": "0ed3ef4dd8b6de31fe33253d50bfde14f194f54952442559e15be650ac410611"
+        },
+        {
+            "date": 1787111114941,
+            "name": "/home/arman/learn-devops/docker/basic-backend/logs/winston/successes/docker-2026-08-19-09-45-14-success.log",
+            "hash": "05195c2cab28e4fec7d180962e944aa6c1ad5523d931ae5d8f2341b5b3bfcfa9"
+        },
+        {
+            "date": 1787111118116,
+            "name": "/home/arman/learn-devops/docker/basic-backend/logs/winston/successes/docker-2026-08-19-09-45-18-success.log",
+            "hash": "4188d9ce0775a879b1bfe7b871aa1bcd7281040817a65c6ec5dadf777e368a14"
+        },
+        {
+            "date": 1787273574460,
+            "name": "/home/arman/learn-devops/docker/basic-backend/logs/winston/successes/docker-2026-08-21-06-52-54-success.log",
+            "hash": "d1185fdd053195c904af3a2bce5ce79156b2f2c5667d3ecc589732a6ea94394c"
+        },
+        {
+            "date": 1787273577683,
+            "name": "/home/arman/learn-devops/docker/basic-backend/logs/winston/successes/docker-2026-08-21-06-52-57-success.log",
+            "hash": "00e01d82f8ff2434bdd6a26cb530ff2483d0758267336942d923b1d55cd2b992"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,4 @@
+Wed Aug 19 2026 8:21:39 } [DOCKER] error: querySrv ENOTFOUND _mongodb._tcp.cluster0.dqzwx.mongodb.net
+Wed Aug 19 2026 8:23:35 } [DOCKER] error: Password contains unescaped characters
+Wed Aug 19 2026 8:24:2 } [DOCKER] error: bad auth : authentication failed
+Wed Aug 19 2026 8:24:39 } [DOCKER] error: bad auth : authentication failed
