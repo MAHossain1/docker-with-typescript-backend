@@ -39,7 +39,7 @@ app.get('/', (req: Request, res: Response) => {
         <link rel="stylesheet" href="/styles.css">
       </head>
       <body>
-        <h1>Welcome to the Docker Logs binding Adib</h1>
+        <h1>Welcome to the Docker Logs binding page created by Adib</h1>
         <p>Go to <a href="/logs/errors">Error Logs</a> or <a href="/logs/successes">Success Logs</a>.</p>
       </body>
     </html>
